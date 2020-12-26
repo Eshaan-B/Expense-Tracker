@@ -131,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('Show Chart'),
+              const Text('Show Chart'),
               Switch.adaptive(
                   activeColor: Theme.of(context).accentColor,
                   value: _showChart,
